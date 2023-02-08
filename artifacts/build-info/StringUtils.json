@@ -43,10 +43,10 @@
 		"goerli:5": {
 			"linkReferences": {
 				"StringLib.sol": {
-					"StringLib": "<address>"
+					"StringLib": "0x08f603009B002C6D12ff35B605eD2E7511e01918"
 				}
 			},
-			"autoDeployLib": true
+			"autoDeployLib": false
 		},
 		"Custom": {
 			"linkReferences": {

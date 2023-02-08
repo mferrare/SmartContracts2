@@ -14,7 +14,7 @@
 		},
 		"rinkeby:4": {
 			"linkReferences": {},
-			"autoDeployLib": true
+			"autoDeployLib": false
 		},
 		"kovan:42": {
 			"linkReferences": {},
