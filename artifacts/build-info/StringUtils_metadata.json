@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "v",
+						"type": "bytes32"
+					}
+				],
+				"name": "bytesToUInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "ret",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "v",
+						"type": "uint256"
+					}
+				],
+				"name": "uintToBytes",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "ret",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "v",
+						"type": "uint256"
+					}
+				],
+				"name": "uintToString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "s",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Piper Merriam - <pipermerriam@gmail.com>",
+			"kind": "dev",
+			"methods": {
+				"bytesToUInt(bytes32)": {
+					"details": "Converts a numeric string to it's unsigned integer representation.",
+					"params": {
+						"v": "The string to be converted."
+					}
+				},
+				"uintToBytes(uint256)": {
+					"details": "Converts an unsigned integert to its string representation.",
+					"params": {
+						"v": "The number to be converted."
+					}
+				}
+			},
+			"title": "String Utils - String utility functions",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StringLib.sol": "StringUtils"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StringLib.sol": {
+			"keccak256": "0x46a444c9f96f008b27b6f2f27f7a7e242d0b6628f5d338ffc61b5e9c73ad9f83",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://02af71f8ddb2cdff77234c70d46253ba2cdfa4f2cbee8b95c436884cf79eede1",
+				"dweb:/ipfs/QmbHin1GTDGSMtT9FJPZ1bw2WmKP4bbRzg8csuaEykGzgC"
+			]
+		}
+	},
+	"version": 1
+}
